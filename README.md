@@ -1,6 +1,9 @@
 微信公众平台SDK for Go
 =
 
+[![GoDoc](https://godoc.org/github.com/sidbusy/weixinmp?status.svg)](https://godoc.org/github.com/sidbusy/weixinmp)
+[![Build Status](https://travis-ci.org/sidbusy/weixinmp.svg)](https://travis-ci.org/sidbusy/weixinmp)
+
 这是一个使用Go语言编写的微信公众平台开发接口封装包.
 
 Hello, 世界
@@ -232,6 +235,9 @@ type Article struct {
 
 更新日志
 -
+
+Release 20151002
+- 修改accesstoken存储规则,支持多个公众号并存
 
 Release 20140608
 
